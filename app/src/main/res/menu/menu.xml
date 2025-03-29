@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android = "http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id='@+id/play'
+        android:title="ИГРАТЬ" />
+
+    <item
+        android:id='@+id/maps'
+        android:title="КАРТЫ">
+
+        <menu>
+            <group>
+                <item
+                    android:id='@+id/bot_sad'
+                    android:title="БОТАНИЧЕСКИЙ САД" />
+                <item
+                    android:id='@+id/gorniy_vozdyh'
+                    android:title="ГОРНЫЙ ВОЗДУХ" />
+            </group>
+        </menu>
+
+    </item>
+    <item
+        android:id='@+id/best_result'
+        android:title="ЛУЧШИЙ РЕЗУЛЬТАТ" />
+    <item
+        android:id='@+id/about_us'
+        android:title="О НАС" />
+
+
+</menu>
